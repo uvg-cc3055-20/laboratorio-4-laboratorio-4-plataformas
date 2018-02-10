@@ -5,6 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/NaveEspacial.unity
+  - enabled: 0
+    path: Assets/__DELETED_GUID_Trash/c077417230ee64ace86d95107e4db316
     guid: c077417230ee64ace86d95107e4db316
+  - enabled: 1
+    path: Assets/StartMenu.unity
+    guid: 7fe0326a72d574028b008938f048826c
+  - enabled: 0
+    path: Assets/New Scene.unity
+    guid: d298b1d1961204ffa83f7d36938e79f3
