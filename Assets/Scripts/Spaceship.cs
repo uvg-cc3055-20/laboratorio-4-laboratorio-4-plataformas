@@ -28,6 +28,7 @@ public class Spaceship : MonoBehaviour {
 	{
 		GameController.instance.gameOver = true;
 		SceneManager.LoadScene ("StartMenu");
+		GameController.instance.EndGame();
 	}
 
 }

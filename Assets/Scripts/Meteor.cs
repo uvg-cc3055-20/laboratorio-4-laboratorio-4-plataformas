@@ -17,7 +17,7 @@ public class Meteor : MonoBehaviour {
 			transform.Translate (Vector3.down * scrollingSpeed * Time.deltaTime);
 			
 			if (transform.position.y < -10) {
-				//Destroy (gameObject);
+				Destroy (gameObject); //una vez el meteorito salga de pantalla, se destruye
 			}
 		}	
 	}
