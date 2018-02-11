@@ -604,6 +604,16 @@ Prefab:
       propertyPath: m_RootOrder
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 114200180993095802, guid: a4bdfd1a6af45489fa103b18b6dec47f,
+        type: 2}
+      propertyPath: meteor
+      value: 
+      objectReference: {fileID: 1186669769}
+    - target: {fileID: 58115287963566316, guid: a4bdfd1a6af45489fa103b18b6dec47f,
+        type: 2}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a4bdfd1a6af45489fa103b18b6dec47f, type: 2}
   m_IsPrefabParent: 0
@@ -1035,6 +1045,21 @@ Prefab:
     - target: {fileID: 4121075954244010, guid: c8d4ad469caf2481e9abd1457bb5ab7c, type: 2}
       propertyPath: m_RootOrder
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 114417955906454086, guid: c8d4ad469caf2481e9abd1457bb5ab7c,
+        type: 2}
+      propertyPath: meteor
+      value: 
+      objectReference: {fileID: 114554926}
+    - target: {fileID: 50423855421145164, guid: c8d4ad469caf2481e9abd1457bb5ab7c,
+        type: 2}
+      propertyPath: m_BodyType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 58375861741862158, guid: c8d4ad469caf2481e9abd1457bb5ab7c,
+        type: 2}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4ad469caf2481e9abd1457bb5ab7c, type: 2}

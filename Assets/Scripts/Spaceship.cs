@@ -1,11 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Spaceship : MonoBehaviour {
 	Rigidbody2D rb;
 	public Camera cam;
-	float speed = 6f;
+	float speed = 10f;
 
 	// Use this for initialization
 	void Start () {
@@ -26,6 +27,7 @@ public class Spaceship : MonoBehaviour {
 	private void OnTriggerEnter2D(Collider2D collision)
 	{
 		GameController.instance.gameOver = true;
+		SceneManager.LoadScene ("StartMenu");
 	}
 
 }
