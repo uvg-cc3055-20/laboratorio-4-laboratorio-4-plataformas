@@ -4,6 +4,7 @@ using UnityEngine;
 
 /**
  * Clase para que vaya generando meteoritos aleatoriamente
+ * @author Ana Lucia Hernandez (17138). Esteban Cabrera (17781)
  * */
 public class MeteorSpawner : MonoBehaviour {
 	public float spawnTime = 1.5f;

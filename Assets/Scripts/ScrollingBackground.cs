@@ -2,6 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/**
+ * Clase para que vaya generando meteoritos aleatoriamente
+ * @author Ana Lucia Hernandez (17138). Esteban Cabrera (17781)
+ * */
 public class ScrollingBackground : MonoBehaviour {
 
 	public float scrollingSpeed = 0.01f;

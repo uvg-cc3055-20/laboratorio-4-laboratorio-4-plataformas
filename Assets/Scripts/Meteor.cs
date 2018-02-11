@@ -1,7 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/**
+ * Clase para que vaya generando meteoritos aleatoriamente
+ * @author Ana Lucia Hernandez (17138). Esteban Cabrera (17781)
+ * */
 public class Meteor : MonoBehaviour {
 	public GameObject meteor;
 	private float scrollingSpeed = 7f;

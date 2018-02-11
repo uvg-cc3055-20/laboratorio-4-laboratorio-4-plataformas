@@ -3,7 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-
+/**
+ * 
+ * @author Ana Lucia Hernandez (17138). Esteban Cabrera (17781)
+ * */
 public class GameController : MonoBehaviour {
 	public bool gameOver =false;
 	private float score = 0f;

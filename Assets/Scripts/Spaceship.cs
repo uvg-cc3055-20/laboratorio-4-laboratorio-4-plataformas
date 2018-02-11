@@ -2,7 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
+/**
+ * Clase que modela a la nave espacial
+ * @author Ana Lucia Hernandez (17138). Esteban Cabrera (17781)
+ * */
 public class Spaceship : MonoBehaviour {
 	Rigidbody2D rb;
 	public Camera cam;

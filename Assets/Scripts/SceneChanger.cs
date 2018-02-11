@@ -6,6 +6,9 @@ using UnityEngine.UI;
 
 /** 
  * Esta sera la clase utilizada para cambiar entre el menú principal y la escena de la nave espacial 
+ * 
+ * @author Ana Lucia Hernandez (17138). Esteban Cabrera (17781)
+ * 
  **/
 public class SceneChanger : MonoBehaviour {
 	public Text contadorText;
