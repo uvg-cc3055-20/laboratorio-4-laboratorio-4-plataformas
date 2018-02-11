@@ -13,18 +13,14 @@ public class GameController : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		instance = this;
-		
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		if (GameController.instance.gameOver == false)
+		if (!GameController.instance.gameOver == false)
         {
-
-        } else
-        {
-            score+=2;
-            contadorText.text = "Score: " + score.ToString();
-        }
+			GameController.instance.score +=2;
+			contadorText.text = "Score: " + GameController.instance.score.ToString();
+        } 
 	}
 }
