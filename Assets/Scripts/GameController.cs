@@ -20,7 +20,7 @@ public class GameController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (!GameController.instance.gameOver == false)
+		if (GameController.instance.gameOver == false)
         {
 			score += Time.deltaTime; // cambiara el score dependiendo de cuanto tiempo haya pasado vivo
         } 

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 /**
- * Clase para que vaya generando meteoritos aleatoriamente
+ * Clase que modela a los meteoritos
  * @author Ana Lucia Hernandez (17138). Esteban Cabrera (17781)
  * */
 public class Meteor : MonoBehaviour {
@@ -19,7 +19,7 @@ public class Meteor : MonoBehaviour {
 		if (GameController.instance.gameOver == false) {
 			transform.Translate (Vector3.down * scrollingSpeed * Time.deltaTime);
 			
-			if (transform.position.y < -10) {
+			if (transform.position.y < -100f) {
 				Destroy (gameObject); //una vez el meteorito salga de pantalla, se destruye
 			}
 		}	
